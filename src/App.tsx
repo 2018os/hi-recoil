@@ -1,9 +1,8 @@
-import React from 'react';
-import { RecoilRoot } from 'recoil'; 
+import { RecoilRoot } from 'recoil';
 
 import CharacterCounter from './CharacterCounter';
 
-function App() {
+function App(): JSX.Element {
   return (
     <RecoilRoot>
       <CharacterCounter />
